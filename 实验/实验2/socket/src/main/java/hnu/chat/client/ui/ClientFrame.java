@@ -3,6 +3,7 @@ package hnu.chat.client.ui;
 import hnu.chat.common.Constants;
 import hnu.chat.common.Message;
 import hnu.chat.client.network.ClientConnection;
+import hnu.chat.client.audio.VoiceChatManager;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -29,6 +30,7 @@ public class ClientFrame extends JFrame {
     private String username;
     private ClientConnection connection;
     private MessagePanel messagePanel;
+    private VoiceChatManager voiceChatManager;
 
     public ClientFrame() {
         initializeFrame();
@@ -93,11 +95,13 @@ public class ClientFrame extends JFrame {
         JMenuItem sendImageItem = new JMenuItem("发送图片");
         JMenuItem sendAudioItem = new JMenuItem("发送音频");
         JMenuItem sendVideoItem = new JMenuItem("发送视频");
+        JMenuItem voiceCallItem = new JMenuItem("语音通话");
         
         popupMenu.add(sendFileItem);
         popupMenu.add(sendImageItem);
         popupMenu.add(sendAudioItem);
         popupMenu.add(sendVideoItem);
+        popupMenu.add(voiceCallItem);
 
         // 初始化消息面板
         messagePanel = new MessagePanel(username);
@@ -152,6 +156,35 @@ public class ClientFrame extends JFrame {
                 showVideoChooser();
             }
         });
+
+        // 语音通话监听器
+        popupMenu.getComponent(4).addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseReleased(java.awt.event.MouseEvent e) {
+                toggleVoiceCall((JMenuItem) e.getSource());
+            }
+        });
+    }
+
+    private void toggleVoiceCall(JMenuItem item) {
+        if (voiceChatManager == null) {
+            voiceChatManager = new VoiceChatManager(username);
+        }
+
+        if (voiceChatManager.isCalling()) {
+            voiceChatManager.stopCall();
+            item.setText("语音通话");
+            JOptionPane.showMessageDialog(this, "语音通话已结束");
+        } else {
+            try {
+                voiceChatManager.startCall();
+                item.setText("结束通话");
+                JOptionPane.showMessageDialog(this, "语音通话已开始");
+            } catch (Exception ex) {
+                JOptionPane.showMessageDialog(this, "无法启动语音通话: " + ex.getMessage());
+                ex.printStackTrace();
+            }
+        }
     }
 
     private void sendTextMessage() {

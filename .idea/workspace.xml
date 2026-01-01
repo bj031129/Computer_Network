@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe199f23-2c5b-43c1-8183-9899c600a43a" name="更改" comment="忽略.idea文件夹">
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/src/main/java/hnu/chat/client/ui/ClientFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/src/main/java/hnu/chat/client/ui/ClientFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/实验/实验2/socket/target/classes/hnu/chat/client/ui/ClientFrame.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Maven\apache-maven-3.6.3" />
+        <option name="localRepository" value="D:\Maven\maven_repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="37edWLbopxvngO1sjbD9xmvpmFW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/桌面/work/实习/RuoYi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.ChatClient.executor": "Run",
+    "应用程序.ChatServer.executor": "Run"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\work\Computer_Network" />
+      <recent name="D:\桌面\work\Computer_Network\实验\实验2\socket\.idea" />
+      <recent name="D:\桌面\work\Computer_Network\实验\实验2\socket" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hnu.chat.ChatClient" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hnu.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hnu.chat.ChatServer" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hnu.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="应用程序.ChatClient" />
+      <item itemvalue="应用程序.ChatServer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.ChatClient" />
+        <item itemvalue="应用程序.ChatServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="fe199f23-2c5b-43c1-8183-9899c600a43a" name="更改" comment="" />
+      <created>1767267500629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767267500629</updated>
+      <workItem from="1767267501728" duration="2781000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除无用文件">
+      <option name="closed" value="true" />
+      <created>1767267699005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767267699005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除无用文件">
+      <option name="closed" value="true" />
+      <created>1767268947669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767268947669</updated>
+    </task>
+    <task id="LOCAL-00003" summary="忽略.idea文件夹">
+      <option name="closed" value="true" />
+      <created>1767269568033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767269568033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除无用文件" />
+    <MESSAGE value="忽略.idea文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略.idea文件夹" />
+  </component>
+</project>

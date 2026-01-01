@@ -1,0 +1,16 @@
+Index: 实验/实验2/socket/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/实验/实验2/socket/.gitignore b/实验/实验2/socket/.idea/.gitignore
+rename from 实验/实验2/socket/.gitignore
+rename to 实验/实验2/socket/.idea/.gitignore
+--- a/实验/实验2/socket/.gitignore	(revision 75f32c2a1d2d5da3fc2b2a803c9ad94256ed7eee)
++++ b/实验/实验2/socket/.idea/.gitignore	(date 1767269653233)
+@@ -1,5 +1,3 @@
+-/.idea/
+-
+ # Default ignored files
+ /shelf/
+ /workspace.xml

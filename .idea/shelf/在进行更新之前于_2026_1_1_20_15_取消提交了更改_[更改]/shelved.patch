@@ -1,0 +1,17 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.gitignore
+rename from .idea/.gitignore
+rename to .gitignore
+--- a/.idea/.gitignore	(revision 75f32c2a1d2d5da3fc2b2a803c9ad94256ed7eee)
++++ b/.gitignore	(date 1767269653239)
+@@ -1,6 +1,8 @@
++/.idea/
++
+ # 默认忽略的文件
+ /shelf/
+-/workspace.xml
++/.idea/workspace.xml
+ # 基于编辑器的 HTTP 客户端请求
+ /httpRequests/
+ # Datasource local storage ignored files
